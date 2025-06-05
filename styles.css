@@ -282,3 +282,7 @@ div#footer {
 #logo img {
     margin-top: 8px;
 }
+#mainNav .sub-nav li {
+    height: 22% !important;
+    /* background: red; */
+}
