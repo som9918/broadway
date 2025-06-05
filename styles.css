@@ -1,5 +1,5 @@
 #headerContainer {
-    background: #060001;
+    background: transparent;
     color: white;
     border-bottom: 1px solid #1f1f1f;
     padding: 14px 0;
@@ -21,7 +21,7 @@
 }
 
 .wrap {
-    margin-top: 79px;
+    margin-top: 0;
     background: #060001 !important;
 }
 
@@ -83,7 +83,7 @@ form#searchForm {
     text-shadow: none;
     width: 40%;
     margin: 0 auto;
-    margin-top: 290px;
+    margin-top: 198px;
     /* color: #f9d665; */
 }
 
