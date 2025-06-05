@@ -276,3 +276,6 @@ div#footer {
 #searchResults:before {
     border-bottom-color: #93772b;
 }
+#mainNav li{
+        height: 65px;
+}
