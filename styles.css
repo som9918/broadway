@@ -277,5 +277,5 @@ div#footer {
     border-bottom-color: #93772b;
 }
 #mainNav li{
-        height: 65px;
+        height: 65px !important;
 }
