@@ -1,14 +1,14 @@
 // header bg change 
-$(document).ready(function () {
-    $(window).scroll(function () {
-        var scroll = $(window).scrollTop();
-        if (scroll > 80) {
-            $("#headerContainer").css("background", "black");
-        }
+document.addEventListener("DOMContentLoaded", function () {
+    window.addEventListener("scroll", function () {
+        var scroll = window.scrollY;
+        var header = document.getElementById("headerContainer");
 
-        else {
-            $("#headerContainer").css("background", "transparent");
+        if (scroll > 80) {
+            header.style.background = "black";
+        } else {
+            header.style.background = "transparent";
         }
-    })
-})
+    });
+});
 
