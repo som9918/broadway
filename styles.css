@@ -5,7 +5,10 @@
     box-sizing: border-box;
     font-family: "Montserrat";
 }
-
+body {
+    background-color: #060001;
+    color: #FFFFFF;
+}
 #headerContainer {
     background: transparent;
     color: white;
