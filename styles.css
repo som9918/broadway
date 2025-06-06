@@ -445,3 +445,62 @@ button:hover, .event:hover .event-buy button, .nav-button:hover {
 button:hover button i, .event:hover .event-buy button i, .nav-button:hover .nav-button i {
     color: black !important;
 }
+@media (max-width:600px){
+    #headerContainer {
+    background: #151515 !important;
+}
+
+.wrap {
+    padding-top: 78px;
+    background: #030303 !important;
+}
+
+#largeSearchContainer h2 {
+    font-size: 30px;
+    display: block;
+    margin: 0;
+    width: 100%;
+    margin-bottom: 40px !important;
+}
+
+.large-search#search {
+    background: linear-gradient(45deg, #211A05, #230C35, #300C28);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#searchResults {
+    width: 100%;
+}
+
+form#searchForm button {
+    display: block;
+    padding: 0 10px;
+}
+
+#largeSearch input {
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+#largeSearch i {
+    display: none;
+}
+
+#footerTop .footer-contents .footer-centered {
+    width: 100%;
+    text-align: center;
+}
+
+.footer-contents ul, .footer-left, .footer-centered, .footer-right {
+    width: 100%;
+    display: block;
+    font-size: 13px;
+}
+
+.footer-contents ul li {
+    margin-left: 6px;
+    font-size: 20px;
+}
+}
