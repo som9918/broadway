@@ -584,8 +584,8 @@ div#content {
 }
 
 #ticketsContainer {
-    height: calc(100vh - 79px);
+    height: calc(100vh - 79px) !important;
 }
 #ticketsWrap {
-    margin-top: 79px;
+    margin-top: 79px !important;
 }
