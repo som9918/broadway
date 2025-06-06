@@ -544,4 +544,38 @@ span.venue-name {
 .event-date {
     padding: 18px;
 }
+
+
+    .event-buy button, .load-more-button {
+    /* display: none; */
+}
+
+#allEventsList span.event-name-text {
+    font-size: 15px;
+}
+
+.event-buy {
+    display: none;
+}
+
+.mobile-event-ticket-count {
+    font-size: 10px;
+    width: 100%;
+}
+
+span.venue-name {
+    font-size: 14px;
+}
+
+.event-date {
+    padding: 18px;
+}
+
+div#content {
+    padding: 5px;
+}
+
+.event {
+    padding: 10px;
+}
 }
