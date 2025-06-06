@@ -514,3 +514,10 @@ form#searchForm button {
     display: block;
 }
 }
+@media (max-width:1364px){
+    ul#mainNav {
+    background: #060001;
+    margin-top: 24px;
+    border: 0;
+}
+}
