@@ -510,4 +510,7 @@ form#searchForm button {
     width: 100%;
     padding-top: 335px;
 }
+    form#searchForm button {
+    display: block;
+}
 }
