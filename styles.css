@@ -582,3 +582,10 @@ div#content {
     border: 0;
 }
 }
+
+#ticketsContainer {
+    height: calc(100vh - 79px);
+}
+#ticketsWrap {
+    margin-top: 79px;
+}
