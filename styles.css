@@ -163,6 +163,7 @@ form#searchForm::after {
 
 .event-list-top {
     border-bottom: 1px solid #3c3737;
+    background: transparent !important;
 }
 
 a#locationLink {
@@ -288,4 +289,159 @@ div#footer {
 #mainNav .sub-nav li {
     height: 22% !important;
     /* background: red; */
+}
+.event-list {
+    margin-bottom: 13px;
+}
+
+.event-date-time {
+    /* background: red; */
+    /* text-align: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* padding-top: 21px; */
+    /* height: 90px; */
+    /* margin-right: 20px !important; */
+}
+
+.event-date {
+    background: #5D5D5D;
+    height: 70px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 27px;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+}
+
+.event-time {
+    background: #989898;
+    color: #000000;
+    padding: 8px;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.event-date-time {
+    width: 125px;
+    margin-right: 10px !important;
+}
+
+.event-name-venue {
+    margin-left: 0px !important;
+    width: 100%;
+    /* background: green; */
+    padding: 7px 20px;
+}
+
+.event-name {
+    /* margin-top: -10px !important; */
+}
+
+.event-name a {
+    display: block;
+    /* background: red; */
+    /* margin-top: -20px !important; */
+}
+
+.event-date-time-venue {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event {
+    background: linear-gradient(45deg, #211A05, #230C35, #300C28);
+    margin: 10px 0;
+    border-radius: 14px;
+}
+
+.event-list-items {
+    background: transparent;
+}
+
+.event-list-contents {
+    background: #ff000000 !important;
+}
+
+div#allEventsList {
+    background: #ff000000;
+}
+
+#allEventsList .event-list-top {
+    border-bottom: 0;
+    /* font-size: 28px !important; */
+    padding-left: 10px;
+}
+
+#allEventsList .event-list-top h2 {
+    font-size: 29px;
+    padding-left: 0;
+}
+
+#allEventsList span.event-name-text {
+    color: white;
+    font-size: 20px;
+}
+
+#allEventsList .event-venue {
+    font-size: 14px;
+    font-weight: 200;
+    color: #f9d665;
+    margin-top: 5px;
+}
+
+#allEventsList .event-ticket-count {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.event-buy button, .load-more-button {
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 37px;
+    padding: 10px 24px;
+    height: 100%;
+    width: 100%;
+    font-weight: 600;
+}
+
+.tickets-button i.fa.fa-angle-double-right {
+    color: #f9d665;
+    font-size: 22px;
+    margin-left: 9px;
+}
+
+.event-buy {
+    width: 200px;
+}
+
+.event-wrapper:hover {
+    background: transparent;
+}
+
+.event-buy button:hover, .load-more-button:hover {
+    background: #f9d665;
+    color: black;
+    border-color: #f9d665;
+}
+
+.event-buy button:hover i, .load-more-button:hover i {
+    color: black !important;
+}
+
+.event-wrapper:hover .event-wrapper button {
+    background: red !important;
+}
+
+button:hover, .event:hover .event-buy button, .nav-button:hover {
+    background: #f9d665 !important;
+    border-color: #f9d665;
+    color: black !important;
+}
+
+button:hover button i, .event:hover .event-buy button i, .nav-button:hover .nav-button i {
+    color: black !important;
 }
