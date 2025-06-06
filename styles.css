@@ -504,3 +504,10 @@ form#searchForm button {
     font-size: 20px;
 }
 }
+@media (min-width:601px) and (max-width:1364px){
+    #largeSearchContainer h2 {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 335px;
+}
+}
