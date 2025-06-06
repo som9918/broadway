@@ -515,11 +515,7 @@ form#searchForm button {
 }
 }
 @media (max-width:1364px){
-    ul#mainNav {
-    background: #060001;
-    margin-top: 24px;
-    border: 0;
-}
+  
     .event-buy button, .load-more-button {
     /* display: none; */
 }
@@ -577,5 +573,12 @@ div#content {
 
 .event {
     padding: 10px;
+}
+}
+@media (max-width:991px){
+      ul#mainNav {
+    background: #060001;
+    margin-top: 24px;
+    border: 0;
 }
 }
