@@ -557,7 +557,8 @@ span.venue-name {
 }
 
 span.event-name-text {
-    font-size: 13px;
+    font-size: 15px;
+    line-height: 20px;
 }
 
 .event-buy {
@@ -568,14 +569,14 @@ span.event-name-text {
     font-size: 10px;
     width: 100%;
     position: absolute;
-    bottom: 11px;
+    bottom: -12px;
     left: 115px;
     font-size: 13px !important;
     width: 180px;
 }
 
 span.venue-name {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .event-date {
@@ -587,7 +588,7 @@ div#content {
 }
 
 .event {
-    padding: 10px;
+    padding: 21px 10px;
 }
 }
 @media (max-width:961px){
