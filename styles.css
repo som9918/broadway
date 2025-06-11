@@ -107,6 +107,7 @@ form#searchForm {
     color: #937631;
     text-align: center;
     margin-left: -2px;
+    display: none;
 }
 
 form#searchForm::after {
@@ -114,7 +115,7 @@ form#searchForm::after {
     position: absolute;
     top: -28px;
     left: -5%;
-    height: 150px;
+    height: 115px;
     width: 110%;
     background: #f9d665;
     z-index: -4;
@@ -249,7 +250,7 @@ div#footer {
 #searchResults {
     z-index: 9999999;
     position: absolute;
-    background: #93790e;
+    background: #222020;
     padding-top: 23px;
 }
 
@@ -270,16 +271,16 @@ div#footer {
     color: white;
 }
 
-.search-result-item {background: #93790e;}
+.search-result-item {background: #222020;}
 
 .search-result-title {
     color: white;
     font-size: 15px;
-    background: #77600e;
+    background: #313130;
 }
 
 #searchResults:before {
-    border-bottom-color: #93772b;
+    border-bottom-color: #222020;
 }
 #mainNav li{
         height: 65px !important;
@@ -397,6 +398,7 @@ div#allEventsList {
     font-weight: 200;
     color: #f9d665;
     margin-top: 5px;
+    width: 400px;
 }
 
 #allEventsList .event-ticket-count {
@@ -593,6 +595,11 @@ div#content {
     #allEventsList span.event-name-text{
         width: 100%;
 }
+ 
+
+#allEventsList .event-venue {
+    width: 100%;
+}
 }
 #ticketsContainer {
     height: calc(100vh - 79px) !important;
@@ -636,13 +643,19 @@ div#content {
 .right-content {
     width: 100%;
 }
-
+   .search-result-item:hover {
+    background: #64645e;
+    color: white;
+}
 #allEventsList .event-ticket-count {
-    /* background: red; */
-    /* width: 100px; */
+  
     position: absolute;
-    right: 55px;
+    right: -70px;
     top: 21px;
     font-size: 22px;
     font-weight: 700;
+}
+.search-result-item:hover {
+    background: #64645e;
+    color: white;
 }
