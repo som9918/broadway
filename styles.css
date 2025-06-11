@@ -661,3 +661,6 @@ div#content {
     background: #64645e;
     color: white;
 }
+.left-content {
+    width: 100%;
+}
