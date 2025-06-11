@@ -314,8 +314,9 @@ div#footer {
     padding-top: 27px;
     margin-bottom: 0;
     text-align: center;
-    font-size: 14px;
+    font-size: 22px;
     position: relative;
+    padding: 17px;
 }
 
 .event-time {
@@ -650,12 +651,11 @@ div#content {
     color: white;
 }
  .event-ticket-count {
-  
-    position: absolute;
-    right: -70px;
-    top: 21px;
-    font-size: 22px;
-    font-weight: 700;
+  position: absolute;
+  right: -70px;
+  top: 21px;
+  font-size: 18px;
+  font-weight: 700;
 }
 .search-result-item:hover {
     background: #64645e;
