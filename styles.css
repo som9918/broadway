@@ -331,6 +331,7 @@ div#footer {
 .event-date-time {
     width: 125px;
     margin-right: 10px !important;
+    position: relative;
 }
 
 .event-name-venue {
@@ -566,6 +567,11 @@ span.event-name-text {
 .mobile-event-ticket-count {
     font-size: 10px;
     width: 100%;
+    position: absolute;
+    bottom: 11px;
+    left: 115px;
+    font-size: 13px !important;
+    width: 180px;
 }
 
 span.venue-name {
@@ -599,9 +605,12 @@ div#content {
         width: 100%;
 }
  
-
+.event-name-venue {
+    margin: 0;
+}
 .event-venue {
     width: 100%;
+    font-size: 11px;
 }
 }
 #ticketsContainer {
