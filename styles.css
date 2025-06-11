@@ -114,7 +114,7 @@ form#searchForm::after {
     position: absolute;
     top: -28px;
     left: -5%;
-    height: 118px;
+    height: 150px;
     width: 110%;
     background: #f9d665;
     z-index: -4;
@@ -155,7 +155,7 @@ form#searchForm::after {
 }
 
 .event-list {
-    background: #302e2e;
+    background: transparent;
     border-radius: 18px;
     border: 0;
     color: white;
@@ -196,6 +196,7 @@ a#locationLink {
     border-radius: 20px;
     background: #302e2e;
     color: white;
+    display: none;
 }
 
 .white-box h3 {
@@ -248,7 +249,7 @@ div#footer {
 #searchResults {
     z-index: 9999999;
     position: absolute;
-    background: #222020;
+    background: #93790e;
     padding-top: 23px;
 }
 
@@ -269,16 +270,16 @@ div#footer {
     color: white;
 }
 
-.search-result-item {background: #222020;}
+.search-result-item {background: #93790e;}
 
 .search-result-title {
     color: white;
     font-size: 15px;
-    background: #302e2e;
+    background: #77600e;
 }
 
 #searchResults:before {
-    border-bottom-color: #222020;
+    border-bottom-color: #93772b;
 }
 #mainNav li{
         height: 65px !important;
@@ -306,7 +307,7 @@ div#footer {
 
 .event-date {
     background: #5D5D5D;
-    height: 70px;
+    height: 86px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-top: 27px;
@@ -332,9 +333,11 @@ div#footer {
 
 .event-name-venue {
     margin-left: 0px !important;
-    width: 100%;
+    /* width: 100%; */
     /* background: green; */
     padding: 7px 20px;
+    position: relative;
+    margin: auto;
 }
 
 .event-name {
@@ -384,6 +387,9 @@ div#allEventsList {
 #allEventsList span.event-name-text {
     color: white;
     font-size: 20px;
+    width: 400px;
+    display: inline-block;
+    line-height: 27px;
 }
 
 #allEventsList .event-venue {
@@ -581,6 +587,11 @@ div#content {
     margin-top: 24px;
     border: 0;
 }
+    .event-date{
+    height: 86px;
+}
+    #allEventsList span.event-name-text{
+        width: 100%;
 }
 
 #ticketsContainer {
@@ -589,11 +600,50 @@ div#content {
 #ticketsWrap {
     margin-top: 79px !important;
 }
-#largeSearchContainer #disclaimer, #fullSearchContainer #disclaimer {
-    display: none;
+#locationPanel {
+    background: #302e2e;
+    border: 0;
+    color: white;
 }
 
-.search-result-item:hover {
-    background: #494646;
+#currentLocation a {
     color: white;
+}
+
+#locationInput {
+    background: #625e5e;
+    border: 0;
+    color: white;
+}
+
+.autocomplete-suggestion {
+    background: #070102;
+    border: 0;
+}
+
+.autocomplete-suggestion:hover {
+    background: #302e2e;
+}
+
+.event-list h2 {
+    font-size: 29px;
+}
+
+.left-sidebar {
+    position: absolute;
+    bottom: 0;
+}
+
+.right-content {
+    width: 100%;
+}
+
+#allEventsList .event-ticket-count {
+    /* background: red; */
+    /* width: 100px; */
+    position: absolute;
+    right: 55px;
+    top: 21px;
+    font-size: 22px;
+    font-weight: 700;
 }
