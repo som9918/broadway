@@ -374,18 +374,18 @@ div#allEventsList {
     background: #ff000000;
 }
 
-#allEventsList .event-list-top {
+.event-list-top {
     border-bottom: 0;
     /* font-size: 28px !important; */
     padding-left: 10px;
 }
 
-#allEventsList .event-list-top h2 {
+ .event-list-top h2 {
     font-size: 29px;
     padding-left: 0;
 }
 
-#allEventsList span.event-name-text {
+span.event-name-text {
     color: white;
     font-size: 20px;
     width: 400px;
@@ -393,7 +393,7 @@ div#allEventsList {
     line-height: 27px;
 }
 
-#allEventsList .event-venue {
+ .event-venue {
     font-size: 14px;
     font-weight: 200;
     color: #f9d665;
@@ -401,7 +401,7 @@ div#allEventsList {
     width: 400px;
 }
 
-#allEventsList .event-ticket-count {
+.event-ticket-count {
     font-size: 15px;
     font-weight: 300;
 }
@@ -528,7 +528,7 @@ form#searchForm button {
     /* display: none; */
 }
 
-#allEventsList span.event-name-text {
+span.event-name-text {
     font-size: 21px;
 }
 
@@ -554,7 +554,7 @@ span.venue-name {
     /* display: none; */
 }
 
-#allEventsList span.event-name-text {
+span.event-name-text {
     font-size: 15px;
 }
 
@@ -594,12 +594,12 @@ div#content {
         font-size: 13px;
         padding: 12px;
 }
-    #allEventsList span.event-name-text{
+    span.event-name-text{
         width: 100%;
 }
  
 
-#allEventsList .event-venue {
+.event-venue {
     width: 100%;
 }
 }
@@ -649,7 +649,7 @@ div#content {
     background: #64645e;
     color: white;
 }
-#allEventsList .event-ticket-count {
+ .event-ticket-count {
   
     position: absolute;
     right: -70px;
