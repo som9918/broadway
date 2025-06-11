@@ -114,7 +114,7 @@ form#searchForm::after {
     position: absolute;
     top: -28px;
     left: -5%;
-    height: 150px;
+    height: 118px;
     width: 110%;
     background: #f9d665;
     z-index: -4;
@@ -248,7 +248,7 @@ div#footer {
 #searchResults {
     z-index: 9999999;
     position: absolute;
-    background: #93790e;
+    background: #222020;
     padding-top: 23px;
 }
 
@@ -269,16 +269,16 @@ div#footer {
     color: white;
 }
 
-.search-result-item {background: #93790e;}
+.search-result-item {background: #222020;}
 
 .search-result-title {
     color: white;
     font-size: 15px;
-    background: #77600e;
+    background: #302e2e;
 }
 
 #searchResults:before {
-    border-bottom-color: #93772b;
+    border-bottom-color: #222020;
 }
 #mainNav li{
         height: 65px !important;
@@ -588,4 +588,12 @@ div#content {
 }
 #ticketsWrap {
     margin-top: 79px !important;
+}
+#largeSearchContainer #disclaimer, #fullSearchContainer #disclaimer {
+    display: none;
+}
+
+.search-result-item:hover {
+    background: #494646;
+    color: white;
 }
