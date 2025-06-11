@@ -590,7 +590,9 @@ div#content {
     border: 0;
 }
     .event-date{
-    height: 86px;
+          height: 63px;
+        font-size: 13px;
+        padding: 12px;
 }
     #allEventsList span.event-name-text{
         width: 100%;
