@@ -593,7 +593,7 @@ div#content {
     #allEventsList span.event-name-text{
         width: 100%;
 }
-
+}
 #ticketsContainer {
     height: calc(100vh - 79px) !important;
 }
@@ -630,8 +630,7 @@ div#content {
 }
 
 .left-sidebar {
-    position: absolute;
-    bottom: 0;
+   display: none;
 }
 
 .right-content {
