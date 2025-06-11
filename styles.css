@@ -474,7 +474,7 @@ button:hover button i, .event:hover .event-buy button i, .nav-button:hover .nav-
 }
 
 .large-search#search {
-    background: linear-gradient(45deg, #211A05, #230C35, #300C28);
+/*     background: linear-gradient(45deg, #211A05, #230C35, #300C28); */
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
