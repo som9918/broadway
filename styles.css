@@ -455,6 +455,13 @@ button:hover, .event:hover .event-buy button, .nav-button:hover {
 button:hover button i, .event:hover .event-buy button i, .nav-button:hover .nav-button i {
     color: black !important;
 }
+@media screen and (min-width: 967px) and (max-width: 1200px) {
+  .event-buy {
+    display: block;
+    position: relative;
+    top: 10px;
+  }
+}
 @media (max-width:600px){
     #headerContainer {
     background: #151515 !important;
@@ -524,13 +531,7 @@ form#searchForm button {
     display: block;
 }
 }
-@media screen (min-width:967px) and (max-width:1200px){
-    .event-buy{
-        display: block;
-        position: relative;
-        top :10px;
-    }
-}
+
 @media (max-width:1364px){
   
     .event-buy button, .load-more-button {
