@@ -674,3 +674,11 @@ div#content {
 .left-content {
     width: 100%;
 }
+
+@media screen (min-width:967px) and (max-width:1200px){
+    .event-buy{
+        display: block;
+        position: ;
+        top:10px;
+    }
+}
