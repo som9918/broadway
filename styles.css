@@ -296,16 +296,6 @@ div#footer {
     margin-bottom: 13px;
 }
 
-.event-date-time {
-    /* background: red; */
-    /* text-align: center; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    /* padding-top: 21px; */
-    /* height: 90px; */
-    /* margin-right: 20px !important; */
-}
-
 .event-date {
     background: #5D5D5D;
     height: 86px;
@@ -343,14 +333,9 @@ div#footer {
     margin: auto;
 }
 
-.event-name {
-    /* margin-top: -10px !important; */
-}
-
 .event-name a {
     display: block;
-    /* background: red; */
-    /* margin-top: -20px !important; */
+
 }
 
 .event-date-time-venue {
@@ -457,7 +442,7 @@ button:hover button i, .event:hover .event-buy button i, .nav-button:hover .nav-
 }
 @media screen and (min-width: 967px) and (max-width: 1200px) {
   .event-buy {
-    display: block;
+    display: block !important;
     position: relative;
     top: 10px;
   }
