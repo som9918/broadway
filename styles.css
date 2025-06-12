@@ -524,6 +524,13 @@ form#searchForm button {
     display: block;
 }
 }
+@media screen (min-width:967px) and (max-width:1200px){
+    .event-buy{
+        display: block;
+        position: relative;
+        top :10px;
+    }
+}
 @media (max-width:1364px){
   
     .event-buy button, .load-more-button {
@@ -675,10 +682,4 @@ div#content {
     width: 100%;
 }
 
-@media screen (min-width:967px) and (max-width:1200px){
-    .event-buy{
-        display: block;
-        position: relative;
-        top :10px;
-    }
-}
+
