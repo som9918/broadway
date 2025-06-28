@@ -786,3 +786,5 @@ label.btn.sea-btn.sea-ticket-type-option.active.slick-slide.slick-current.slick-
     background: #f9d66514 !important;
     border-color: #f9d665 !important;
 }
+#sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label:focus-within{
+    outline:none !important;}
