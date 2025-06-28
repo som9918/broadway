@@ -781,8 +781,9 @@ button#pre-checkout-price-cta {
     background: #f9d665 !important;
 }
 label.btn.sea-btn.sea-ticket-type-option.active.slick-slide.slick-current.slick-active ,label.btn.sea-btn.sea-ticket-type-option.slick-slide.slick-active:hover ,#sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label.active {
-    background: #f9d66514 !important;
-    border-color: #f9d665 !important;
+    background: #f9d6651a !important;
+    border: 1px solid;
+    color: white !important;
 }
 #sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label:focus-within{
     outline:none !important;}
@@ -873,9 +874,23 @@ h1#sea-event-info-name {
     background: #f9d665;
 }
 }
-#receipt-header, #header {
-    margin-bottom: 0;
-    /* padding-top: 4px; */
-    /* padding-bottom: 4px; */
-    background-color: #000;
+.sea-inventory-slider.slick-initialized.slick-slider {
+    background: black;
+}
+
+#sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label.active span {
+    color: white !important;
+}
+
+#sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label span {
+    color: white;
+}
+
+#sea-inventory-slider-with-filterBtn #sea-inventory-filtersBtncnt {
+    background: transparent;
+    color: white;
+}
+
+#sea-inventory-slider-with-filterBtn #sea-inventory-filtersBtncnt .sea-inventory-filterBtn .sea-inventory-child span.sea-angle {
+    color: white;
 }
