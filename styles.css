@@ -795,3 +795,7 @@ label.btn.sea-btn.sea-ticket-type-option.active.slick-slide.slick-current.slick-
     font-family: sans-serif;
     border-radius: 30px;
 }
+button.seeMoreDeliveryNotelink.toggleViewClass.sea-show-full-notes-packages:hover {
+    background: transparent !important;
+    color: #080808 !important;
+}
