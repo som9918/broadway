@@ -873,11 +873,20 @@ h1#sea-event-info-name {
 #sea-filterCard-wrapper .switch.active .slider:before {
     background: #f9d665;
 }
+    .img_container img {
+    width: 42px;
+    margin: 2px;
+}
+    
 }
 .sea-inventory-slider.slick-initialized.slick-slider {
     background: black;
 }
-
+.img_container {
+    display: flex
+;
+    flex-wrap: wrap;
+}
 #sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label.active span {
     color: white !important;
 }
@@ -900,4 +909,8 @@ h1#sea-event-info-name {
 
 #sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label:hover {
     border-color: #f9d665;
+}
+.img_container img {
+    width: 100px;
+    margin: 10px;
 }
