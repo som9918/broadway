@@ -447,7 +447,7 @@ button:hover button i, .event:hover .event-buy button i, .nav-button:hover .nav-
     top: 10px;
   }
 }
-@media (max-width:600px){
+@media (max-width:1400px){
     #headerContainer {
     background: #151515 !important;
 }
@@ -798,4 +798,63 @@ label.btn.sea-btn.sea-ticket-type-option.active.slick-slide.slick-current.slick-
 button.seeMoreDeliveryNotelink.toggleViewClass.sea-show-full-notes-packages:hover {
     background: transparent !important;
     color: #080808 !important;
+}
+@media(max-width:910px){
+    
+.event-info-inner-ctn {
+    margin-top: 78px;
+}
+
+#headerContainer {
+    display: block;
+}
+
+a#hamburgerIcon {
+    color: white;
+}
+
+h1#sea-event-info-name {
+    font-size: 10px;
+}
+
+.event-info-place span {
+    font-size: 9px;
+}
+
+.event-info-col img {
+    display: none;
+}
+
+
+.event-info-date, .event-info-date-ctn {
+    display: block !important;
+}
+
+.event-info-date {
+    width: 80px;
+}
+
+.event-info-date-date.event-info-date-loc {
+    font-size: 11px;
+}
+
+.event-info-date .event-info-date-day {
+    font-size: 15px !important;
+}
+
+.event-info-date-time.event-info-date-loc {
+    font-size: 12px;
+}
+
+.event-info-inner-ctn {
+    justify-content: start !important;
+    align-items: center;
+    display: flex;
+}
+
+.event-info-details-ctn {
+    text-align: start;
+    margin-left: 10px;
+    width: 40%;
+}
 }
