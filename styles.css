@@ -765,6 +765,6 @@ a#sea-seatics-link img {
     margin-bottom: 10px;
 }
 .venue-ticket-list-cta-js div.buy-btn {
-    background: #f9d665;
-    color: black;
+    background: #f9d665 !important;
+    color: black !important;
 }
