@@ -782,3 +782,7 @@ button#pre-checkout-price-cta {
 .sea-no-vfs-show-details .pre-checkout-vfs-tg-info-color {
     background: #f9d665 !important;
 }
+label.btn.sea-btn.sea-ticket-type-option.active.slick-slide.slick-current.slick-active ,label.btn.sea-btn.sea-ticket-type-option.slick-slide.slick-active:hover {
+    background: #f9d66514 !important;
+    border-color: #f9d665 !important;
+}
