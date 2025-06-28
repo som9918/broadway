@@ -768,9 +768,7 @@ a#sea-seatics-link img {
     background: #f9d665 !important;
     color: black !important;
 }
-.sea-listItem.slick-slide.slick-active {}
-
-.sea-quantity-items .sea-listItem:hover {
+.sea-quantity-items .sea-listItem:hover , .sea-quantity-items .sea-selected {
     background: #f9d665;
     border-color: #f9d665;
 }
