@@ -876,8 +876,8 @@ h1#sea-event-info-name {
 }
     
 .img_container img {
-    width: 42px;
-    margin: 2px;
+        width: 42px !important;
+        margin: 2px !important;
 }
 
 }
