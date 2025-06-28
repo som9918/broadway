@@ -884,7 +884,7 @@ h1#sea-event-info-name {
 }
 .img_container {
     display: flex
-;
+;    justify-content: end;
     flex-wrap: wrap;
 }
 #sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label.active span {
