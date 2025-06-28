@@ -873,3 +873,9 @@ h1#sea-event-info-name {
     background: #f9d665;
 }
 }
+#receipt-header, #header {
+    margin-bottom: 0;
+    /* padding-top: 4px; */
+    /* padding-bottom: 4px; */
+    background-color: #000;
+}
