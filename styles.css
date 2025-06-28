@@ -751,3 +751,16 @@ a#sea-seatics-link {
 a#sea-seatics-link img {
     filter: brightness(0.5);
 }
+
+
+
+.venue-ticket-list-cta-js div.buy-btn {background: #F9D665;color: black;}
+
+.Sea-TicketRow .sea-my-list-toggle {
+    background: #f9d665 !important;
+}
+
+.venue-ticket-list-section-row-text span {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
