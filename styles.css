@@ -857,4 +857,7 @@ h1#sea-event-info-name {
     margin-left: 10px;
     width: 40%;
 }
+    .event-info-left-col {
+    display: none !important;
+}
 }
