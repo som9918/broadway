@@ -894,3 +894,10 @@ h1#sea-event-info-name {
 #sea-inventory-slider-with-filterBtn #sea-inventory-filtersBtncnt .sea-inventory-filterBtn .sea-inventory-child span.sea-angle {
     color: white;
 }
+#sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label:hover span {
+    color: white;
+}
+
+#sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label:hover {
+    border-color: #f9d665;
+}
