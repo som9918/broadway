@@ -768,3 +768,17 @@ a#sea-seatics-link img {
     background: #f9d665 !important;
     color: black !important;
 }
+.sea-listItem.slick-slide.slick-active {}
+
+.sea-quantity-items .sea-listItem:hover {
+    background: #f9d665;
+    border-color: #f9d665;
+}
+
+button#pre-checkout-price-cta {
+    background: #f9d665;
+}
+
+.sea-no-vfs-show-details .pre-checkout-vfs-tg-info-color {
+    background: #f9d665 !important;
+}
