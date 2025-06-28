@@ -806,7 +806,7 @@ button.seeMoreDeliveryNotelink.toggleViewClass.sea-show-full-notes-packages:hove
 }
 
 #headerContainer {
-    display: block;
+    display: block !important;
 }
 
 a#hamburgerIcon {
