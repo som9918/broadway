@@ -786,3 +786,12 @@ label.btn.sea-btn.sea-ticket-type-option.active.slick-slide.slick-current.slick-
 }
 #sea-inventory-slider-with-filterBtn .sea-inventory-slider .slick-track label:focus-within{
     outline:none !important;}
+.section-button-container button.section-button {
+    background: #f9d665;
+    border-color: #f9d665;
+    color: black;
+    font-weight: 700;
+    font-size: 17px;
+    font-family: sans-serif;
+    border-radius: 30px;
+}
