@@ -860,4 +860,16 @@ h1#sea-event-info-name {
     .event-info-left-col {
     display: none !important;
 }
+    div#sea-filterCard-parent {
+    top: 79px;
+}
+
+.filters-qty-filter .sea-btn.active, .filters-qty-filter .sea-btn.sea-active {
+    background: #f9d665;
+    border-color: #f9d665;
+}
+
+#sea-filterCard-wrapper .switch.active .slider:before {
+    background: #f9d665;
+}
 }
