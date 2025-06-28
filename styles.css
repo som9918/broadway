@@ -926,4 +926,5 @@ h1#sea-event-info-name {
 .img_container img {
     width: 100px;
     margin: 10px;
+        object-fit: contain;
 }
