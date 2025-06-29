@@ -928,15 +928,15 @@ h1#sea-event-info-name {
     margin: 10px;
         object-fit: contain;
 }
-#sea-filterCard-wrapper .switch.active .slider:before {
+#sea-filterCard-wrapper .switch.active .slider:before , #sea-filterCard-wrapper .switch.active .slider:before{
     background: #f9d665;
 }
 
-.filters-qty-filter .sea-btn.active, .filters-qty-filter .sea-btn.sea-active {
+.filters-qty-filter .sea-btn.active, .filters-qty-filter .sea-btn.sea-active ,.filters-qty-filter .sea-btn.active, .filters-qty-filter .sea-btn.sea-active, .filters-qty-filter .sea-btn:hover{
     background: #f9d665;
     border-color: #f9d665;
 }
 
-button#sea-filterCard-submit-btn {
+button#sea-filterCard-submit-btn , #sea-filterCard-submit-btn{
     background: #f9d665;
 }
