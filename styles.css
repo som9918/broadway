@@ -879,6 +879,24 @@ h1#sea-event-info-name {
         width: 42px !important;
         margin: 2px !important;
 }
+    .sea-button-padding {
+    height: 10px;
+}
+
+legend {
+    font-size: 14px;
+}
+
+.filters-qty-filter .sea-btn {
+    height: 45px;
+    width: 51px;
+    top: -1px;
+    position: relative;
+}
+
+.sea-filterCard-separator {
+    margin: 0;
+}
 
 }
 .sea-inventory-slider.slick-initialized.slick-slider {
