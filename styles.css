@@ -930,8 +930,8 @@ legend {
 }
 
 #sea-inventory-slider-with-filterBtn #sea-inventory-filtersBtncnt {
-    background: transparent;
-    color: white;
+    background: #f9d665 !important;
+    color: black;
 }
 
 #sea-inventory-slider-with-filterBtn #sea-inventory-filtersBtncnt .sea-inventory-filterBtn .sea-inventory-child span.sea-angle {
