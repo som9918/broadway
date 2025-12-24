@@ -683,7 +683,7 @@ div#sea-marketing-header {
 }
 
 div#event-info-right-col {
-    display: none;
+    display: block;
 }
 
 .event-info-date {
